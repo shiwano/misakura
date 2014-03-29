@@ -6,7 +6,7 @@ A UNIX command to translate into [Misakura language](http://dic.nicovideo.jp/a/%
 
 ### Mac OS X:
 
-misakura has a available formula for [Homebrew](http://brew.sh/), so you can install it with the following command:
+misakura has [a available formula](https://gist.github.com/shiwano/9853149) for [Homebrew](http://brew.sh/), so you can install it with the following command:
 
 ```bash
 brew install https://gist.github.com/shiwano/9853149/raw/misakura.rb
@@ -30,7 +30,14 @@ $ echo たまには運動するのも気持ちいいですね | misakura
 たまには運動しゅるのぉおおのぉおおもぎも゛ぢいぃ゛いぃ゛ぃれしゅぅぅぅね
 ```
 
-### Git Commit Hook
+### Git Hook
+
+```bash
+$ curl -L https://gist.github.com/shiwano/9855692/raw/commit-msg > .git/hooks/commit-msg
+$ chmod +x .git/hooks/commit-msg
+```
+
+See also [commit-msg hook for misakura](https://gist.github.com/shiwano/9855692)
 
 ## Special Thanks
 
