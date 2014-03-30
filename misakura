@@ -57,8 +57,8 @@ MISAKURA_SCRIPT=`cat <<'EOF'
 EOF`
 
 function misakura {
-  local misakurized=`echo -e "${1}\n" | sed -e :loop -e 'N; $!b loop' -e "${MISAKURA_SCRIPT}"`
-  echo -e "${misakurized}"
+  local misakurized=`echo -e "$1\n" | sed -e :loop -e 'N; $!b loop' -e "$MISAKURA_SCRIPT"`
+  echo -e "$misakurized"
 }
 
 function help {
