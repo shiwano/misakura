@@ -44,6 +44,7 @@ See also [commit-msg hook for misakura](https://gist.github.com/shiwano/9855692)
 [みさくら語変換](http://yellow.ribbon.to/~sc/contents.html)
 
 ## Release History
+ * 2014-03-30   v0.1.1   Fix a garbage characters bug.
  * 2014-03-29   v0.1.0   First release.
 
 ## License
