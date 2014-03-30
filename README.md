@@ -4,7 +4,7 @@ A UNIX command to translate into [Misakura language](http://dic.nicovideo.jp/a/%
 
 ## Install
 
-### Mac OS X:
+### Mac OS X
 
 misakura has [a available formula](https://gist.github.com/shiwano/9853149) for [Homebrew](http://brew.sh/), so you can install it with the following command:
 
@@ -12,7 +12,7 @@ misakura has [a available formula](https://gist.github.com/shiwano/9853149) for 
 brew install https://gist.github.com/shiwano/9853149/raw/misakura.rb
 ```
 
-### Other Environment:
+### Other Environments
 
 misakura is a shell script, so you can install with adding the file to your `$PATH`.
 
